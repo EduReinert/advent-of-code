@@ -13,7 +13,7 @@ public class VariablesGeneralUsages {
         return firstList;
     }
 
-    public void setFirstList(int[] firstList) {
+    public static void setFirstList(int[] firstList) {
         VariablesGeneralUsages.firstList = firstList;
     }
 
@@ -21,11 +21,11 @@ public class VariablesGeneralUsages {
         return secondList;
     }
 
-    public void setSecondList(int[] secondList) {
+    public static void setSecondList(int[] secondList) {
         VariablesGeneralUsages.secondList = secondList;
     }
 
-    public String getFilename() {
+    public static String getFilename() {
         return filename;
     }
 
